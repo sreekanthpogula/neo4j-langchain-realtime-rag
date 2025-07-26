@@ -1,5 +1,5 @@
-# neo4j-langchain-realtime-rag
-This repository contains a real-time RAG (Retrieval-Augmented Generation) pipeline using Neo4j and LangChain. The pipeline is designed to process and query large datasets efficiently, leveraging the capabilities of graph databases.
+# Neo4j-Langchain-Realtime-RAG
+This repository contains a real-time RAG (Retrieval-Augmented Generation) pipeline using Neo4j and LangChain and Ollama from Wikipedia. The pipeline is designed to process and query large datasets efficiently, leveraging the capabilities of graph databases.
 ## Features
 - Real-time data ingestion and processing
 - Integration with Neo4j for graph-based data storage
@@ -54,7 +54,7 @@ This example demonstrates how to create nodes for users and posts, establish rel
 To set up the environment, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/neo4j-langchain-realtime-rag.git
+   git clone https://github.com/sreekanthpogula/neo4j-langchain-realtime-rag.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -66,10 +66,7 @@ To set up the environment, follow these steps:
     ```
 4. Set up Neo4j and LangChain configurations as per your environment.
 5. Start the Neo4j server and ensure it is running.
-6. Run the pipeline script to start processing data:
-   ```bash
-   python neo4j_rag_pipeline.py
-   ```
+6. Run the pipeline code in the notebook in the `notebooks` directory or execute the scripts in the `src` directory.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. When contributing, please ensure that your code adheres to the project's coding standards and includes appropriate tests.

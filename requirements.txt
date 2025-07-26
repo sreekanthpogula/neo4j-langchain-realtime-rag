@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-neo4j
+langchain-openai
+langchain-experimental
+wikipedia
+dotenv
